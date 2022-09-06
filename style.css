@@ -1,0 +1,97 @@
+.wrapper{
+    width:1170px;
+    margin: auto;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    width: 25vw;
+    height: 100px;
+  }
+  .column1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    width: 70vw;
+    height: 50px;
+  }
+  .row::after {
+    content: "";
+    clear:both;
+    display:block;
+  }
+.bg{
+    background-image: url('bg.jpeg');
+    background-repeat: no-repeat;
+    height: 83vh;
+    background-size: cover;
+    
+}
+.b1{
+    height: 85px;
+    width: 85px;
+    margin: 10px;
+    margin-left: 43vw;
+    display:inline-block;
+}
+.b2{
+    height: 85px;
+    width: 200px;
+    margin: 60px;
+    margin-left: 43vw;
+    display: inline-block;
+}
+.b3{
+    height: 85px;
+    width: 200px;
+    margin: 30px;
+    margin-left: 43vw;
+    display: inline-block;
+}
+.b4{
+    height: 85px;
+    width: 200px;
+    margin: 30px;
+    margin-left: 43vw;
+    display: inline-block;
+}
+.b1:hover{
+    transform: scale(1.2,1.2);
+}
+.b2:hover{
+    transform: scale(1.2,1.2);
+}
+.b3:hover{
+    transform: scale(1.2,1.2);
+}
+.b4:hover{
+    transform: scale(1.2,1.2);
+}
+.b{
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+  }
+ .logo img{
+     width: 300px;
+     float:left;
+     height:100px;
+     padding-right: 1000px;
+ }
+ .column:hover{
+    transform: scale(1.1,1.1);
+ }
+ .img{
+    margin:20px;
+ }
+ .box{
+    height:30px;
+    width:150px;
+    color:black;
+    font-weight: 100;
+    background-color: white;
+    margin:10px;
+    padding:5px;
+
+ }
